@@ -19,7 +19,7 @@ services:
     container_name: fleettrack_backend
     restart: always
     ports:
-      - "8000:8000"
+      - "8001:8000"
     environment:
       DB_CONNECTION: pgsql
       DB_HOST: postgres
